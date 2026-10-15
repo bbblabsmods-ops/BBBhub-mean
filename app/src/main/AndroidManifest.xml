@@ -1,7 +1,7 @@
+
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <!-- Lets the app list every installed app -->
     <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
 
     <uses-feature
@@ -10,7 +10,6 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/ic_launcher"
         android:label="BBB Hub"
         android:theme="@style/AppTheme">
 
